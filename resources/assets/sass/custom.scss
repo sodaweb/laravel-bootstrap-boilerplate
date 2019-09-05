@@ -1,0 +1,106 @@
+html,
+body {
+    height: 100%;
+}
+
+body{
+    padding-top: 80px;
+}
+
+/* Bootstrap changes */
+a{
+    color: #0055B3;
+}
+
+.bg-primary{
+    background-color: #0055B3;
+}
+
+.btn-primary{
+    background-color: #0055B3;
+    border-color: #0055B3;
+}
+
+/* End Bootstrap Changes */
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+header{
+    nav{
+        .navbar-brand{
+            img{
+                height: 40px;
+            }
+        }
+    }
+}
+
+main{
+    min-height: calc(100vh - 205px);
+    .breadcrumb{
+        margin-top: 20px;
+    }
+    .page-header{
+        margin-top: 10px;
+    }
+    #contact{
+        a{
+            i.fab, svg[data-prefix=fab]{
+                color: #636b6f;
+            }
+        }
+    }
+}
+
+/* 404 Page Styles */
+
+.error-page{
+    height: 100vh;
+    min-height: 400px;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    img{
+        max-width: 100%;
+        max-height: calc(150px + 20vh);
+    }
+    img.logo{
+        margin-bottom: 50px;
+    }
+    p{
+        text-transform: uppercase;
+        font-size: 20px;
+        color: #000;
+    }
+    a.btn{
+        background-color: #000;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: bold;
+        width: 200px;
+        margin-top: 20px;
+    }
+}
+
+#error-404{
+    background-image: url('../images/404-background.jpg');
+}
+
+#error-503{
+    background-image: url('../images/503-background.jpg');
+}
+
+footer{
+    color: #fff;
+    a, a:hover{
+        color: #fff;
+    }
+}

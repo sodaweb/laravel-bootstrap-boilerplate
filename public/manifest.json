@@ -1,0 +1,32 @@
+{
+  "short_name": "LBB",
+  "name": "Laravel Bootstrap Boilerplate",
+  "description": "Lorem Ipsum Dolor Sit Amet",
+  "background_color": "#ffffff",
+  "theme_color": "#373C43",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/icon-1x.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "images/icon-2x.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+    {
+      "src": "images/icon-4x.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "images/icon-full.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone"
+}
